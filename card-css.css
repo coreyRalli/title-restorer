@@ -1,0 +1,19 @@
+article [data-testid="card.wrapper"] a > div:last-child {
+    right: 0px !important;
+    bottom: 0px !important;
+    left: 0px !important;
+}
+
+article [data-testid="card.wrapper"] a > div:last-child > div {
+    padding: 12px !important;
+    background-color: rgba(0, 0, 0, 1.0) !important;
+    height: auto !important;
+    width: 100% !important;
+    align-items: start;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+article [data-testid="card.wrapper"] a > div:last-child > div > div {
+    text-align: left !important;
+}
